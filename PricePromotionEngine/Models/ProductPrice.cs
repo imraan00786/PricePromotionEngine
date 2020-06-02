@@ -14,5 +14,7 @@ namespace PricePromotionEngine.Web.Models
         public static double SKU_C_Price = 20;
 
         public static double SKU_D_Price = 15;
+
+        public static double SKU_C_D_Price = 30;
     }
 }

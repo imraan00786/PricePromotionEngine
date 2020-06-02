@@ -8,6 +8,6 @@ namespace PricePromotionEngine.Web.Services.Interfaces
 {
     public interface IOrderService
     {
-        public double PriceCalculate(Order orderRequest);
+        double PriceCalculate(Order orderRequest);
     }
 }

@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using PricePromotionEngine.Web.Services;
+using PricePromotionEngine.Web.Services.Interfaces;
 
 namespace PricePromotionEngine
 {
@@ -27,6 +29,7 @@ namespace PricePromotionEngine
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IOrderService, OrderService>();
 
             var contact = new OpenApiContact()
             {
