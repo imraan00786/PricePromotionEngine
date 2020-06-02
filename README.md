@@ -1,2 +1,2 @@
-# PricePromotionEngine
+# Price Promotion Engine
 Price promotion engine
