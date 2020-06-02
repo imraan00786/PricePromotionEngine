@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricePromotionEngine.Web", "PricePromotionEngine\PricePromotionEngine.Web.csproj", "{463BAD3C-5033-43BB-A09F-9431C9DE8021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricePromotionEngine.Web.Test", "PricePromotionEngine.Web.Test\PricePromotionEngine.Web.Test.csproj", "{FBFD67FB-09AF-4E4F-88EF-A506AEDA7D65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{463BAD3C-5033-43BB-A09F-9431C9DE8021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463BAD3C-5033-43BB-A09F-9431C9DE8021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463BAD3C-5033-43BB-A09F-9431C9DE8021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463BAD3C-5033-43BB-A09F-9431C9DE8021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFD67FB-09AF-4E4F-88EF-A506AEDA7D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFD67FB-09AF-4E4F-88EF-A506AEDA7D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFD67FB-09AF-4E4F-88EF-A506AEDA7D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFD67FB-09AF-4E4F-88EF-A506AEDA7D65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEBADD77-8578-4E32-A16E-9AF193810BBE}
+	EndGlobalSection
+EndGlobal
