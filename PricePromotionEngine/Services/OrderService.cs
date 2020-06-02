@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace PricePromotionEngine.Web.Services
 {
+    /// <summary>
+    /// Order Service
+    /// </summary>
     public class OrderService: IOrderService
     {
         public OrderService()
@@ -15,7 +18,11 @@ namespace PricePromotionEngine.Web.Services
 
         }
 
-
+        /// <summary>
+        /// CalculateForSKU_A
+        /// </summary>
+        /// <param name="orderRequest"></param>
+        /// <returns></returns>
         public double CalculateForSKU_A(Order orderRequest)
         {
             double totalPrice = 0;
@@ -35,6 +42,11 @@ namespace PricePromotionEngine.Web.Services
             return totalPrice;
         }
 
+        /// <summary>
+        /// CalculateForSKU_B
+        /// </summary>
+        /// <param name="orderRequest"></param>
+        /// <returns></returns>
         public double CalculateForSKU_B(Order orderRequest)
         {
             double totalPrice = 0;
@@ -56,6 +68,11 @@ namespace PricePromotionEngine.Web.Services
             return totalPrice;
         }
 
+        /// <summary>
+        /// CalculateForSKU_C_D
+        /// </summary>
+        /// <param name="orderRequest"></param>
+        /// <returns></returns>
         public double CalculateForSKU_C_D(Order orderRequest)
         {
             double totalPrice = 0;
@@ -84,6 +101,12 @@ namespace PricePromotionEngine.Web.Services
             return totalPrice;
         }
 
+
+        /// <summary>
+        /// CalculateForSKU_C
+        /// </summary>
+        /// <param name="orderRequest"></param>
+        /// <returns></returns>
         public double CalculateForSKU_C(Order orderRequest)
         {
             double totalPrice = 0;
@@ -95,6 +118,11 @@ namespace PricePromotionEngine.Web.Services
             return totalPrice;
         }
 
+        /// <summary>
+        /// CalculateForSKU_D
+        /// </summary>
+        /// <param name="orderRequest"></param>
+        /// <returns></returns>
         public double CalculateForSKU_D(Order orderRequest)
         {
             double totalPrice = 0;
@@ -106,6 +134,11 @@ namespace PricePromotionEngine.Web.Services
             return totalPrice;
         }
 
+        /// <summary>
+        /// PriceCalculate
+        /// </summary>
+        /// <param name="orderRequest"></param>
+        /// <returns></returns>
         public double PriceCalculate(Order orderRequest)
         {
             double totalPrice = 0;
